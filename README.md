@@ -1,4 +1,4 @@
-# Template GCP Cloud Function Python FastAPI
+# Template GCP Cloud Run Python FastAPI
 
 ## Install cookiecutter
 
@@ -19,5 +19,5 @@ For more options see: https://cookiecutter.readthedocs.io/en/stable/installation
 ## Generate project from template
 
 ```shell
-cookiecutter https://github.com/Yerachmiel-Feltzman/Template-GCP-Cloud-Function-Python-FastAPI.git [-o <output-folder>]
+cookiecutter https://github.com/Yerachmiel-Feltzman/Template-GCP-Cloud-Run-Python-FastAPI.git [-o <output-folder>]
 ```
