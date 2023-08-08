@@ -1,0 +1,21 @@
+{
+  "authors": [],
+  "project_name": "GCP Cloud Run FastAPI application",
+  "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '-') }}",
+  "package_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
+  "project_description": "",
+  "python_version_poetry": "^3.11",
+  "python_version_pyenv": "3.11",
+  "python_version_docker": "{{ cookiecutter.python_version_pyenv }}",
+  "poetry_version": "1.4.0",
+  "gcp_region": "",
+  "gcp_project": "",
+  "gcp_cloud_run_service_name": "{{ cookiecutter.project_slug }}",
+  "gcp_service_account_for_cloud_run": "",
+  "gcp_cloud_run_max_instances": 100,
+  "__prompts__": {
+    "python_version_poetry": "Enter a python version compatible with for Poetry. For example, ^3.11 .",
+    "python_version_pyenv": "Enter a Python version to lock using `pyenv local <VERSION>`.",
+    "poetry_version": "What version of poetry are you using for this project? You can check it with `poetry --version`."
+  }
+}
